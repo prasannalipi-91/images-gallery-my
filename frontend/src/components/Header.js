@@ -1,17 +1,17 @@
 import React from 'react';
-import {Container, Navbar} from 'react-bootstrap';
+import { Container, Navbar } from 'react-bootstrap';
 
 const navbarStyle = {
-  backgroundColor : "lightblue"
+  backgroundColor: 'lightblue',
 };
 
-const Header = ({title}) => {
+const Header = ({ title }) => {
   return (
-    <Navbar style= {navbarStyle} varient="light">
-        <Container>
-          <Navbar.Brand href="/">{title}</Navbar.Brand>
-        </Container>
+    <Navbar style={navbarStyle} varient="light">
+      <Container>
+        <Navbar.Brand href="/">{title}</Navbar.Brand>
+      </Container>
     </Navbar>
   );
-}
+};
 export default Header;
